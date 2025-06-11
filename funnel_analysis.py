@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv("funnel_data.csv")  # rename if your file has a different name
+data = pd.read_csv("funnel_data.csv")
 
 # Filter for conversions only
 converted = data[data['conversion'] == True]
